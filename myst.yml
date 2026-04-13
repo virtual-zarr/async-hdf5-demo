@@ -1,0 +1,16 @@
+version: 1
+project:
+  title: "async-hdf5 demo"
+  description: >
+    Benchmarking async-hdf5 + zarrs-python for reading ICESat-2 ATL06
+    from the cloud.
+  toc:
+    - file: index.md
+    - file: notebooks/01-explore.ipynb
+    - file: notebooks/02-performance.ipynb
+    - file: notebooks/03-virtual.ipynb
+    - file: notebooks/04-memory.ipynb
+    - file: notebooks/05-performance-s3.ipynb
+site:
+  options:
+    logo_text: async-hdf5 demo

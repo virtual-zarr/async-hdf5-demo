@@ -1,0 +1,25 @@
+[project]
+name = "async-hdf5-demo"
+version = "0.1.0"
+description = "Benchmarking async-hdf5 + zarrs for ICESat-2 ATL06 cloud reads"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "async-hdf5",
+    "earthaccess",
+    "h5coro",
+    "memray",
+    "xarray",
+    "matplotlib",
+    "ipykernel",
+    "jupytext",
+    "jupyterlab",
+    "zarr>=3.1.6",
+    "zarrs",
+    "virtualizarr>=2.5.0",
+]
+
+[dependency-groups]
+dev = [
+    "mystmd",
+]
